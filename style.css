@@ -1,0 +1,65 @@
+body {
+  box-sizing: border-box;
+
+  font-size: small;
+  padding:0;
+  background: #fff;
+  color: #222;
+}
+ul{
+  font-family: sans-serif;
+}
+li {
+  display: inline-block;
+}
+.top_left{
+  float:left;
+}
+.top_right{
+  float: right;
+}
+a {
+    display: block;
+    padding: 8px;
+  }
+}
+div{
+  width: 100%;
+}
+
+.google_image{
+  margin:0 auto;
+  height: 200px;
+  width:390px;
+  max-height: 200px;
+  max-width:390px;
+  background-image: url("https://www.google.com/logos/2018/snowgames_closing/cta.png");
+
+}
+.viewport {
+  margin: 10px auto;
+  height:100px;
+  width:500px;
+
+}
+.medida{
+  margin: 10px auto;
+  height: 40px;
+  width: 500px;
+}
+.search_buttons{
+  font-family: arial;
+  font-size: 17px;
+
+  cursor: pointer;
+  margin: 0 auto;
+  width: 500px;
+  padding:0;
+
+}
+.b_left{
+  margin-left: 20px;
+  padding:0 16px;}
+.b_right{
+  margin-left: 160px;
+  padding:0 16px;}
